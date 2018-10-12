@@ -1,0 +1,3047 @@
+{
+  "info": {
+    "_postman_id": "143877-4cbb0f51-3651-4c7d-822f-0f636ace3db6",
+    "name": "ViecLamTrat'",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "143877-fc1541ff-8d82-4353-a9b1-89b4213cda03",
+      "name": "News",
+      "description": null,
+      "item": [
+        {
+          "_postman_id": "143877-2e08fcc6-068e-4dc6-bef4-ea5b990a9eb4",
+          "name": "Danh s·ch",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                "tokenType": ""
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "CategoryLangID",
+                  "value": "155",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}news"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-f2fb6390-6a11-4f85-b36c-843d0aff0cf2",
+          "name": "Chi tiøt tin tÈc",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                "tokenType": ""
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "CategoryLangID",
+                  "value": "155",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}news/516"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-00dd9efb-b685-44f7-a97b-a89127b948d4",
+      "name": "Nh‡ tuy√n dÂng",
+      "description": null,
+      "item": [
+        {
+          "_postman_id": "143877-259712a0-29d6-4f65-904c-3c1fd4bb1d82",
+          "name": "CÙng vi«c",
+          "description": "",
+          "item": [
+            {
+              "_postman_id": "143877-2db2f221-f028-4d6c-8bab-a285e6a3103f",
+              "name": "ng vi«c - click xem thÍm nŸi dung",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODAzNTk3NSwiZXhwIjoxNTc0MDM1OTc1LCJuYmYiOjE1MzgwMzU5NzUsImp0aSI6Ijk2NzViMjczYWIzMTJiNDI5NTE5ZTNjZjljYWU0YmVhIn0.hLM87rh11PMELcXsMdlTPJ3ivZXH_2Q2iyNjGBtRpzw",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\"title\":\"123123\",\r\n\"provinces\":[1,2,3],\r\n\"address\":\"asdasd\",\r\n\"avatar\":\"\",\r\n\"categories\":[1,3,3],\r\n\"capBac\":\"123213\",\r\n\"gender\":1,\r\n\"bangCap\":\"12321\",\r\n\"expiredDate\":\"2018-12-30\",\r\n\"wageRates\":\"1\", \r\n\"wageRates1\":\"1\",\r\n\"wageRates2\":\"2\",\r\n\"kinhNghiem\":\"23213\",\r\n\"mota\":\"zxddasdadas\",\r\n\"soLuong\":2,\r\n\"loaiHinhCV\":1,\r\n\"lat\":\"111\",\r\n\"lng\":\"222\"\r\n}\r\n"
+                },
+                "url": "{{VLC_URL1}}company/job",
+                "description": "mota:\" T∞°ng Èng cŸt ShortDesc\",\n\n\"wageRates\":\"Gi· trÀ nh≠p yÍu cßu enum 1,3 trong Û 1 l‡ 1 , 3 l‡ c— Ành ( Reponse t∞°ng Èng l‡  cŸt MucLuong trong database) \",\n\n\"wageRates1\":\"Gi· trÀ nh≠p yÍu cßu ki√u integer( Reponse t∞°ng Èng l‡  cŸt MucLuong1 trong database)\",\n\n\"wageRates2\":\"Gi· trÀ nh≠p yÍu cßu ki√u integer( Reponse t∞°ng Èng l‡  cŸt MucLuong2 trong database)\",\n\n\n\"bangCap\":\"T∞°ng Èng v€i cŸt bCap\",\n\n\"expiredDate\":\" T∞°ng Èng v€i cŸt NgayHetHan\","
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-49fc08f9-5016-40d4-bbed-11f1c0759bb2",
+              "name": "C≠p nh≠t cÙng vi«c",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5NjY3OEE1My01RkYxLTQ3NDMtOTYzMi0xMUNENTYwQ0U3NjEiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1MzgxMDQ4ODksImV4cCI6MTU3NDEwNDg4OSwibmJmIjoxNTM4MTA0ODg5LCJqdGkiOiIxYzcyMzViYjg2NWUzMmZmOTFhOTI1NDU1NWI1MmViYyJ9.W9FpKNt4dJamvos9mND7N-nRI6X6z5ZfCC8x2t_VbC8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\"title\":\"123123\",\r\n\"provinces\":[1,2,3\r\n\t],\r\n\"categories\":[1,3,3\r\n\t\r\n\t],\r\n\t\t\"avatar\":\"\",\r\n\t\"capBac\":\"123213\",\r\n\"gender\":1,\r\n\"bangCap\":\"12321\",\r\n\"expiredDate\":\"2018-12-30\",\r\n\"wageRates\":\"Ëng v€i cŸt MucLuong enum 1,3\", \r\n\"wageRates1\":\"Ëng v€i cŸt MucLuong1 nh≠p integer\",\r\n\"wageRates2\":\"Ëng v€i cŸt MucLuong2 nh≠p integer\",\r\n\"kinhNghiem\":\"23213\",\r\n\"mota\":\"zxddasdadas\",\r\n\"soluong\":2,\r\n\"loaiHinhCV\":1\r\n}\r\n"
+                },
+                "url": "{{VLC_URL}}company/job/VTJ639/update",
+                "description": "mota:\" T∞°ng Èng cŸt ShortDesc\",\n\n\"wageRates\":\"Ëng v€i cŸt MucLuong enum 1,3\", \n\n\"wageRates1\":\"Ëng v€i cŸt MucLuong1 nh≠p integer\",\n\n\"wageRates2\":\"Ëng v€i cŸt MucLuong2 nh≠p integer\",\n\n\"bangCap\":\"T∞°ng Èng v€i cŸt bCap\",\n\n\"expiredDate\":\" T∞°ng Èng v€i cŸt NgayHetHan\","
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-bbfa9e9d-911d-4afd-b025-1ab87fcc2ffc",
+              "name": "Danh s·ch vi«c l‡m theo email",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {},
+                "url": "{{VLC_URL}}job-by-company/info@vungtauworks.com.vn"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-630f41b0-a866-4bee-9d44-d7979f2703e1",
+              "name": "Chi tiøt cÙng vi«c cÁa tÙi",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}company/job/VTJ576"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-297fe061-a4aa-4044-869b-4284cff0c2fe",
+              "name": "Danh s·ch cÙng vi«c cÁa tÙi",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{VLC_URL}}company/job?status=expired/show/null",
+                  "host": [
+                    "{{VLC_URL}}company"
+                  ],
+                  "path": [
+                    "job"
+                  ],
+                  "query": [
+                    {
+                      "key": "status",
+                      "value": "expired/show/null",
+                      "equals": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-647d6578-5b28-438f-9333-a5ade0e8eb29",
+              "name": "XÛa cÙng vi«c",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "DELETE",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}company/job/VTJ576/delete"
+              },
+              "response": []
+            }
+          ],
+          "_postman_isSubFolder": true
+        },
+        {
+          "_postman_id": "143877-3d5139cc-6c7b-4d7e-8f0c-d8eafa12501b",
+          "name": "H” s° cÙng vi«c",
+          "description": null,
+          "item": [
+            {
+              "_postman_id": "143877-1d7c4fc2-a0d2-41ad-b5dc-5ef22f59fecd",
+              "name": "Chi tiøt h” s° apply",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{VLC_URL}}company/job/VTJ4/applied/RS022?test=true",
+                  "host": [
+                    "{{VLC_URL}}company"
+                  ],
+                  "path": [
+                    "job",
+                    "VTJ4",
+                    "applied",
+                    "RS022"
+                  ],
+                  "query": [
+                    {
+                      "key": "test",
+                      "value": "true",
+                      "equals": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-65477afb-b10d-4350-a288-5c3a46375a1c",
+              "name": "Danh s·ch ng∞›i d˘ng apply job",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}company/job/VTJ4/applied"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-da94315a-70c4-4644-ae35-cc66a801e259",
+              "name": "HÁy h— s° n‡y",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "123456",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province",
+                      "value": "12312321",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "company@zing.vn",
+                      "type": "text"
+                    },
+                    {
+                      "key": "representative",
+                      "value": "AA",
+                      "description": "nguoi dai dien",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "android",
+                      "type": "text"
+                    },
+                    {
+                      "key": "conpanyAddress",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyName",
+                      "value": "£ng",
+                      "type": "text"
+                    },
+                    {
+                      "key": "companyInfo",
+                      "value": "asdsad",
+                      "description": "mo ta cong ty",
+                      "type": "text"
+                    },
+                    {
+                      "key": "expiredDate",
+                      "value": "2018-12-30",
+                      "description": "ngay het hang",
+                      "type": "text"
+                    },
+                    {
+                      "key": "position",
+                      "value": "41",
+                      "description": "Cap bat",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates",
+                      "value": "1",
+                      "description": "muc luong 1 : xac dinh , 3 : thuong luong",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates1",
+                      "value": "5",
+                      "description": "muc luong xac dinh 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wageRates2",
+                      "value": "7",
+                      "description": "muc luong xac dinh 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "mota",
+                      "value": "zxddasdadas",
+                      "description": "Mo ta",
+                      "type": "text"
+                    },
+                    {
+                      "key": "soluong",
+                      "value": "2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "loaiHinhCV",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "noiNhan",
+                      "value": "asdasd",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "language",
+                      "value": "1",
+                      "description": "Ngon ngu h” s°",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province1",
+                      "value": "",
+                      "description": "Ma tinh thu 1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "province2",
+                      "value": "",
+                      "description": "Ma tinh thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category",
+                      "value": "1",
+                      "description": "Nganh nghe ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category1",
+                      "value": "1",
+                      "description": "Nganh nghe 1 ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "category2",
+                      "value": "1",
+                      "description": "Nganh nghe 2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{VLC_URL}}company/job/VTJ4/applied/RS022/cancel?test=true",
+                  "host": [
+                    "{{VLC_URL}}company"
+                  ],
+                  "path": [
+                    "job",
+                    "VTJ4",
+                    "applied",
+                    "RS022",
+                    "cancel"
+                  ],
+                  "query": [
+                    {
+                      "key": "test",
+                      "value": "true",
+                      "equals": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "_postman_isSubFolder": true
+        },
+        {
+          "_postman_id": "143877-6c9559c3-35d7-4a22-83cd-0228127925df",
+          "name": "Chi tiøt cÙng ty",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": "{{VLC_URL}}companie/561C53B5-C008-4141-97CC-0115CDB412D2"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-22de7c95-a667-471b-98a9-20ff45b668fe",
+          "name": "Danh s·ch cÙng ty",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": "{{VLC_URL}}companies"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-92cea129-7ad2-4250-863f-9cc32306d94b",
+          "name": "Danh sach tat ca cac ung vien",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNzUyMjQxNywiZXhwIjoxNTczNTIyNDE3LCJuYmYiOjE1Mzc1MjI0MTcsImp0aSI6IjYzMTA2YTE5MmM5ZTk5ZWFjODAxZDRjOTc5NzZhYjg0In0.nyHRrRtzYjSDGNOBzFjgTrTTlX9of1izcJ8YSz1wDTM"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": "{{VLC_URL}}company/resums"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-689d67b7-31a5-41c7-812f-9258fa3c3bed",
+          "name": "C≠p nh≠t  ng∞›i °i di«n",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODEyMjM0MywiZXhwIjoxNTc0MTIyMzQzLCJuYmYiOjE1MzgxMjIzNDMsImp0aSI6IjFiYWVlMmVlOTA5Nzg0YzZmODA3ODU3M2EyNDQyMjEyIn0.mhBhQKcmj12sD2n2zobdJ71POos03pAtxVQ-1Ra5oJ4",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "fullName",
+                  "value": "33232",
+                  "description": "TÍn ng∞›i °i di«n",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "232323",
+                  "description": "i«nn tho°i b‡n",
+                  "type": "text"
+                },
+                {
+                  "key": "mobilePhone",
+                  "value": "3232",
+                  "description": "Di Ÿng",
+                  "type": "text"
+                },
+                {
+                  "key": "chucVu",
+                  "value": "213213",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}company/profile/update/nguoi-dai-dien"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-4bdaf015-c960-446b-941e-c63af7e41e38",
+          "name": "C≠p nh≠t  So luoc cÙng ty",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODEyMjM0MywiZXhwIjoxNTc0MTIyMzQzLCJuYmYiOjE1MzgxMjIzNDMsImp0aSI6IjFiYWVlMmVlOTA5Nzg0YzZmODA3ODU3M2EyNDQyMjEyIn0.mhBhQKcmj12sD2n2zobdJ71POos03pAtxVQ-1Ra5oJ4",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "description",
+                  "value": "asdasdsad",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}company/profile/update/so-luoc-cong-ty"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-6df5bbc4-c8c2-4a82-9f16-769ecac51c74",
+          "name": "ThÙng tin c· nh‚n",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODEyMjM0MywiZXhwIjoxNTc0MTIyMzQzLCJuYmYiOjE1MzgxMjIzNDMsImp0aSI6IjFiYWVlMmVlOTA5Nzg0YzZmODA3ODU3M2EyNDQyMjEyIn0.mhBhQKcmj12sD2n2zobdJ71POos03pAtxVQ-1Ra5oJ4",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "address",
+                  "value": "asdasa",
+                  "type": "text"
+                },
+                {
+                  "key": "company",
+                  "value": "a23123",
+                  "description": "Ten cong ty",
+                  "type": "text"
+                },
+                {
+                  "key": "lat",
+                  "value": "12312",
+                  "type": "text"
+                },
+                {
+                  "key": "lng",
+                  "value": "123123",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}company/profile/update/thong-tin-ca-nhan"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-9794b9c0-2715-4258-8235-5a40c75e7971",
+      "name": "Ëng viÍn",
+      "description": null,
+      "item": [
+        {
+          "_postman_id": "143877-4494cda4-0131-4725-8762-6c80b3d22e3d",
+          "name": "CV",
+          "description": null,
+          "item": [
+            {
+              "_postman_id": "143877-36de76ae-742d-42e0-8846-a29489fbbb45",
+              "name": "VÀ trÌ mong mu—n",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "Title",
+                      "value": "hello",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/vi-tri-mong-muon"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-0b126c3b-07ac-4be0-9167-2c9c439e9b4f",
+              "name": "C•p b≠c",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "VitriID",
+                      "value": "2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/cap-bat"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-6b270796-5a2c-4c2a-aeff-08104f45f869",
+              "name": "So nam kinh nghiem",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "KinhNghiem",
+                      "value": "2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/so-nam-kinh-nghiem"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-9252e98c-d729-4be3-8bd6-eba91267cf4f",
+              "name": "Noi lam",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "Matinh",
+                      "value": "2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/noi-lam"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-680ebb69-a0c3-405d-89bb-a960b0deb211",
+              "name": "Nganh nghe",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "CategoryLangID",
+                      "value": "2",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/nganh-nghe"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-ec062111-e139-42f9-93c2-2837384663d5",
+              "name": "Muc tieu nghe nghiep",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "ShortDesc",
+                      "value": "1232132132",
+                      "type": "text"
+                    },
+                    {
+                      "key": "MucLuong1",
+                      "value": "2",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/muc-tieu"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-32d309bf-cb1f-44fa-94c6-6d0ebba21847",
+              "name": "Ky nang",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "KyNang",
+                      "value": "1232132132",
+                      "type": "text"
+                    },
+                    {
+                      "key": "MucLuong1",
+                      "value": "2",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/ky-nang"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-de5485e4-c7be-4917-8235-24b0fdbebec2",
+              "name": "Hoc-van",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "TenTruong",
+                      "value": "12321",
+                      "description": "Them so 1 o key neu truong thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ChuyenNganh",
+                      "value": "asdas",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "NamTN",
+                      "value": "1990",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "CapBacNN",
+                      "value": "1",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "Id",
+                      "value": "",
+                      "description": "",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/hoc-van"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-b0ee2f20-288b-42d0-be5f-0181e40d4477",
+              "name": "Ngoai Ngu",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "NgoaiNguID",
+                      "value": "1",
+                      "description": "Them so 1 o key neu truong thu 2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "LevelNN",
+                      "value": "1",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "Id",
+                      "value": "1",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "CapBacNN1",
+                      "value": "1",
+                      "description": "",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/ngoai-ngu"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-2bf27e5e-f3ae-4155-8864-a0a9b60cbf5c",
+              "name": "Kinh nghiem lam viec",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJDNDAzRDdDMi0yREU5LTQ0QTgtQjVFQy05QUE4NEM2MTNGOTYiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1Mzg3MDczNDEsImV4cCI6MTU3NDcwNzM0MSwibmJmIjoxNTM4NzA3MzQxLCJqdGkiOiI1NThiNGFjNWE2ZjkwMDVkNjg4ZTUzMzYxMWI5NjA2MiJ9.LzPhB1gQ6eiEZMLXWN5hUOAJS7xG-eUbpIe8JWEBdII",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "KinhNghiemLamViec",
+                      "value": "1adsad",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "TenCV",
+                      "value": "asdsadasds",
+                      "description": "tÍn cÙng vi«c",
+                      "type": "text"
+                    },
+                    {
+                      "key": "NoiLamViec",
+                      "value": "112312312",
+                      "description": "N°i l‡m vi«c",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ThoiGianBD",
+                      "value": "1990-10-10",
+                      "description": "Th›i gian bd",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ThoiGianKT",
+                      "value": "1990-10-10",
+                      "description": "Th›i gian køt th˙c",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL1}}member/resume/kinh-nghiem"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-05cb8f69-c705-4db6-b97f-12ea6e023df1",
+              "name": "Tham khao",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "ThamKhao",
+                      "value": "1adsad123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "NgoaiNguID1",
+                      "value": "2",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "CapBacNN1",
+                      "value": "1",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/tham-khao"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-59092ac1-0286-47ce-90e1-526f8a9faac8",
+              "name": "Upload avatar",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgxMzQ4NCwiZXhwIjoxNTcyODEzNDg0LCJuYmYiOjE1MzY4MTM0ODQsImp0aSI6IjM1MmZiY2JhMDJhYWI3NDQ5ZDhiNTg5ZDIzZDljYTBkIn0.ORj60kCiPRvXoVuIprecUDt9ZnpxBII2HPvlxVJ3-uI",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "image",
+                      "value": null,
+                      "type": "file"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/avatar"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-1a018462-58a8-44bb-9491-b88a4ca7a9e9",
+              "name": "MÈc l∞°ng",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiIzNjEyNUNGMC03RTgyLTY1QkUtNzYxRS01QzZDNjJFNkJBOEMiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1MzY4MjE2MjksImV4cCI6MTU3MjgyMTYyOSwibmJmIjoxNTM2ODIxNjI5LCJqdGkiOiI0M2YwMmE0Yzc3MDFlODcyNzc1NTEwYWFlODFlZGRhNCJ9.48mhlQh0tgRJiqGMqqKh-RncjKmdokZlOreGN23elrs",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "MucLuong",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "MucLuong1",
+                      "value": "22222",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL1}}member/resume/muc-luong"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-5c3c9e7b-d724-496c-af6e-3fe5845ff736",
+              "name": "Show - ®n",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiIzNjEyNUNGMC03RTgyLTY1QkUtNzYxRS01QzZDNjJFNkJBOEMiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1MzY4MjE2MjksImV4cCI6MTU3MjgyMTYyOSwibmJmIjoxNTM2ODIxNjI5LCJqdGkiOiI0M2YwMmE0Yzc3MDFlODcyNzc1NTEwYWFlODFlZGRhNCJ9.48mhlQh0tgRJiqGMqqKh-RncjKmdokZlOreGN23elrs",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "isShow",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "MucLuong1",
+                      "value": "22222",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL1}}member/resume/public"
+              },
+              "response": []
+            },
+            {
+              "_postman_id": "143877-dbbec433-436e-4576-961f-1a27329ce79d",
+              "name": "C≠p nh≠t thÙng tin c· nh‚n",
+              "request": {
+                "auth": {
+                  "type": "oauth2",
+                  "oauth2": {
+                    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJDNDAzRDdDMi0yREU5LTQ0QTgtQjVFQy05QUE4NEM2MTNGOTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNzk1MjU4NiwiZXhwIjoxNTczOTUyNTg2LCJuYmYiOjE1Mzc5NTI1ODYsImp0aSI6IjNhMTViOWZlMTI4MTUxOGYyZmNmMTFmYWM5MmIwNjYyIn0.ZlZtErYekZTcUpi1NnDvKiTYwYy7JDUOIg39x9rYSto",
+                    "tokenType": ""
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "Email",
+                      "value": "13213",
+                      "description": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "Address",
+                      "value": "123123",
+                      "description": "format ngay/thang/nam",
+                      "type": "text"
+                    },
+                    {
+                      "key": "NgaySinh",
+                      "value": "13123",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "FullName",
+                      "value": "1232",
+                      "description": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "Mobile",
+                      "value": "123213213",
+                      "description": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "HonNhan",
+                      "value": "Chua ket hon",
+                      "description": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "Gender",
+                      "value": "Nam",
+                      "description": "",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": "{{VLC_URL}}member/resume/profile"
+              },
+              "response": []
+            }
+          ],
+          "_postman_isSubFolder": true
+        },
+        {
+          "_postman_id": "143877-2817f0ad-407d-4d0d-86ff-5e96e6603bc8",
+          "name": "H” s° cÁa tÙi",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNzI1NDYzNCwiZXhwIjoxNTczMjU0NjM0LCJuYmYiOjE1MzcyNTQ2MzQsImp0aSI6ImVkZWNjN2RhZmVmMTA4YjQyMWE3M2Y3NWJiYWI5ZWUxIn0.FvQ83StO4iOZ2GZTiVybmtmYDQvrpguWMtFb6aktz7Y",
+                "tokenType": ""
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "description": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "tester99@zing.vn",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceToken",
+                  "value": "AA",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceType",
+                  "value": "android",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/resume"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-7bc332de-2f0d-4429-9c5b-520e615b0821",
+          "name": "Cap nhat profile member",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjczOTg5MCwiZXhwIjoxNTcyNzM5ODkwLCJuYmYiOjE1MzY3Mzk4OTAsImp0aSI6ImI1ZDgwZDUzYmZmMzY5NDY0NmMwNDViM2FkNDU2N2Q1In0.GRaqSAo722cpZy86lvYQGJce6VFqggb2enE69jq57-A",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "fullName",
+                  "value": "123123123",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "dateOfBirth",
+                  "value": "1990-12-31",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "123213213zz",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "address",
+                  "value": "123123",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/profile"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-287648eb-6af7-4e2a-98d3-ec3ebfc56e50",
+          "name": "Apply h” s° v‡o cÙng vi«c",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "title",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "title",
+                  "value": "HWAEaew",
+                  "type": "text"
+                },
+                {
+                  "key": "MaRaoVat",
+                  "value": "RS075",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/job/VTJ102/apply"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-b2f2d6f9-3192-4474-8d7e-e386f17d9cf1",
+          "name": "L∞u job",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+                "tokenType": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "title",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "title",
+                  "value": "HWAEaew",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "MaRaoVat",
+                  "value": "RS075",
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/job/VTJ102/save"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-acb51218-d56c-41fe-9d72-fbace5d5fd1a",
+          "name": "Danh s·ch cÙng vi«c „ l∞u",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+                "tokenType": ""
+              }
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "title",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "title",
+                  "value": "HWAEaew",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "MaRaoVat",
+                  "value": "RS075",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/job-saved"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-8b1e07d4-d5aa-48f1-9a73-6889784786e7",
+          "name": "Danh s·ch cÙng vi«c „ nŸp",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+                "tokenType": ""
+              }
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "title",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "title",
+                  "value": "HWAEaew",
+                  "type": "text"
+                },
+                {
+                  "key": "MaRaoVat",
+                  "value": "RS075",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/job-applied"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-b54d1843-d363-490b-ac9c-85102bc0021d",
+          "name": "XÛa cÙng vi«c „ l∞u",
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+                "tokenType": ""
+              }
+            },
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "title",
+                "value": "",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "title",
+                  "value": "HWAEaew",
+                  "description": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "MaRaoVat",
+                  "value": "RS075",
+                  "description": "",
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}member/job-saved/VTJ102/delete"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-cbb1e40b-5e16-475f-a567-f1db82083221",
+          "name": "Danh s·ch Resume cÁa tÙi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": "{{VLC_URL}}me/resumes"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-6841e6f3-447a-4c81-b939-74dc8902cffb",
+      "name": "Xac minh",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "143877-02e0728b-d36c-4124-b142-6a7d42fa95f8",
+          "name": "ng kÌ user",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "member@zing.vn",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}register-user"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-407e5fd6-1e52-4790-ae44-afaf7774dce1",
+          "name": "ng nh≠p",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "description": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "member@zing.vn",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceToken",
+                  "value": "AA",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceType",
+                  "value": "android",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}login"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-850fb16f-939f-471c-902f-18a00abf768e",
+          "name": "ng kÌ nha tuyen dung",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "company@zing.vn",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "companyName",
+                  "value": "",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "address",
+                  "value": "",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}register-company"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-a5c05c97-5ff9-4178-b097-32ae42a01d3f",
+      "name": "Cong viec",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "143877-9cc0f75f-9390-4da9-a62d-86f31f439790",
+          "name": "Chi tiøt cÙng vi«c",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "{{VLC_URL}}job/536?notifiID=",
+              "host": [
+                "{{VLC_URL}}job"
+              ],
+              "path": [
+                "536"
+              ],
+              "query": [
+                {
+                  "key": "notifiID",
+                  "value": "",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-bf18e4d1-aeae-4d8b-9dd4-95cc30b7923a",
+          "name": "Home-Member-Danh s·ch cÙng Vi«c",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "{{VLC_URL}}new-jobs?name&category&province",
+              "host": [
+                "{{VLC_URL}}new-jobs"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "",
+                  "equals": false,
+                  "description": "TÍn cong viec "
+                },
+                {
+                  "key": "category",
+                  "value": "",
+                  "equals": false,
+                  "description": "Nganh ngh¡"
+                },
+                {
+                  "key": "province",
+                  "value": "",
+                  "equals": false,
+                  "description": "N°i"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-57a1c9df-c44d-4d21-beff-9ea799f3f448",
+      "name": "ThÙng b·o",
+      "description": null,
+      "item": [
+        {
+          "_postman_id": "143877-9e2b0830-d660-4b1f-be6f-59c5f3e80430",
+          "name": "Danh s·ch thÙng b·o",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiIzNjEyNUNGMC03RTgyLTY1QkUtNzYxRS01QzZDNjJFNkJBOEMiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1Mzc4NjE0ODgsImV4cCI6MTU3Mzg2MTQ4OCwibmJmIjoxNTM3ODYxNDg4LCJqdGkiOiI1ODUxNzcyMjlhNTcyYmJlZDRlYzY2ODE3Y2U5OGVhNyJ9.WTsOdA_NhL-0LD-nhoTi5MgzwEB1UzsvLt7QzJv2SaM"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "danghung.nt@gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceToken",
+                  "value": "AA",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceType",
+                  "value": "android",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL1}}notifications"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-3c97cd2c-f84e-4f2e-93d3-aadf687b1e13",
+          "name": "Chi tiøt thÙng b·o",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiIzNjEyNUNGMC03RTgyLTY1QkUtNzYxRS01QzZDNjJFNkJBOEMiLCJpc3MiOiJodHRwOlwvXC92bGMuaG9hbnZ1c29sdXRpb25zLmNvbS52blwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE1Mzc4NjE0ODgsImV4cCI6MTU3Mzg2MTQ4OCwibmJmIjoxNTM3ODYxNDg4LCJqdGkiOiI1ODUxNzcyMjlhNTcyYmJlZDRlYzY2ODE3Y2U5OGVhNyJ9.WTsOdA_NhL-0LD-nhoTi5MgzwEB1UzsvLt7QzJv2SaM"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "danghung.nt@gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceToken",
+                  "value": "AA",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceType",
+                  "value": "android",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL1}}notifications/{id}"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "143877-63589a9d-4f22-457f-85dc-a72866a3b708",
+          "name": "ThÙng b·o ch∞a Õc",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODEwNDU1OCwiZXhwIjoxNTc0MTA0NTU4LCJuYmYiOjE1MzgxMDQ1NTgsImp0aSI6ImY2NTE2ZGNmYTZkMWY2NzFlNjUzYmUyNzkxZDcxZTgzIn0.u6Bi9uhdNwxXaYPS0um94k5mmLSgnVyp5fMtHoCznLU"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "12312321",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "danghung.nt@gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceToken",
+                  "value": "AA",
+                  "type": "text"
+                },
+                {
+                  "key": "deviceType",
+                  "value": "android",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{VLC_URL}}total-notify-not-read"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "143877-e20088ec-ca08-4efa-b942-dffd308cdfb3",
+      "name": "Danh s·ch ng‡nh ng¡",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "{{VLC_URL}}category"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-7fd60c1d-8b9a-4bad-9dbe-ad4ccf30ba5f",
+      "name": "Danh s·ch setting",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "{{VLC_URL}}setting"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-6799372f-15a1-4ea9-9b47-e7d854064300",
+      "name": "Danh s·ch t…nh",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "{{VLC_URL}}province"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-0034ae72-fb9f-4457-a70a-79c8c57255ed",
+      "name": "øm so l∞°ng view cÁa cÙng vi«c",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {},
+        "url": "{{VLC_URL}}job/536/count-view"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-5a157368-a5b1-42d8-9ed0-54174fbe725e",
+      "name": "Cap nhat Email",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJFQjQ0NjA3Ri1CM0RFLTQzMjAtRDk5RS04QzI1NEQxODA0NDAiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjA0OTMyMywiZXhwIjoxNTcyMDQ5MzIzLCJuYmYiOjE1MzYwNDkzMjMsImp0aSI6IjE3YWRhODJkYzRjYTVhMzFlYzdiNTc3YzFmNTdjZGY2In0.phso1Nevu7MAOtAVEAjnoeTKtwNuf4PYXA1x7sCkyks",
+            "tokenType": ""
+          }
+        },
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "member90@zing.vn",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "{{VLC_URL}}update-email"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-ccd8cdbd-d716-4c2b-b165-adeb2e9bd787",
+      "name": "ng nh≠p facebook",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "password",
+              "value": "123456",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "phone",
+              "value": "12312321",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "email",
+              "value": "member@zing.vn",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "deviceToken",
+              "value": "AA",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "deviceType",
+              "value": "android",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "role",
+              "value": "user",
+              "description": "user la ng∞›i tim viec",
+              "type": "text"
+            },
+            {
+              "key": "role",
+              "value": "customer",
+              "description": "customer la ng∞›i ng tuy√n",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{VLC_URL1}}login/facebook?accessToken=EAAdjgZCWUZBmIBAMrNfSljcATNH3PSYQLf4REx7Dzb9SPunpMSNNX7LN4ZChOTHkrXSCk1VzSYmPMZA6nN7cddAZCLN3lC5G5sQDA9crAGhdgxC1bXDeqXcimmqrgcGAHgAyZCtzhl3rtyuEkDRZByqoOasNIw5ZCY4sv5YwNg3TIOmSeTQ8HkVBuvoxzEykZCNq6zjhgVHRhvZC79kl0SYJp4CGudSZA8EZCMeZA5LCDX4GO6wZDZD",
+          "host": [
+            "{{VLC_URL1}}login"
+          ],
+          "path": [
+            "facebook"
+          ],
+          "query": [
+            {
+              "key": "accessToken",
+              "value": "EAAdjgZCWUZBmIBAMrNfSljcATNH3PSYQLf4REx7Dzb9SPunpMSNNX7LN4ZChOTHkrXSCk1VzSYmPMZA6nN7cddAZCLN3lC5G5sQDA9crAGhdgxC1bXDeqXcimmqrgcGAHgAyZCtzhl3rtyuEkDRZByqoOasNIw5ZCY4sv5YwNg3TIOmSeTQ8HkVBuvoxzEykZCNq6zjhgVHRhvZC79kl0SYJp4CGudSZA8EZCMeZA5LCDX4GO6wZDZD",
+              "equals": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-160b8f29-f5ed-4f50-81d4-49e97e3a909d",
+      "name": "ng nh≠p google",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "password",
+              "value": "123456",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "phone",
+              "value": "12312321",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "email",
+              "value": "member@zing.vn",
+              "description": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "deviceToken",
+              "value": "AA",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "deviceType",
+              "value": "android",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "role",
+              "value": "user",
+              "description": "",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{VLC_URL}}login/google?idToken=",
+          "host": [
+            "{{VLC_URL}}login"
+          ],
+          "path": [
+            "google"
+          ],
+          "query": [
+            {
+              "key": "idToken",
+              "value": "",
+              "equals": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-509ce63f-ee85-4b15-8f90-30273e5b6fc2",
+      "name": "Upload avatar",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgxMzQ4NCwiZXhwIjoxNTcyODEzNDg0LCJuYmYiOjE1MzY4MTM0ODQsImp0aSI6IjM1MmZiY2JhMDJhYWI3NDQ5ZDhiNTg5ZDIzZDljYTBkIn0.ORj60kCiPRvXoVuIprecUDt9ZnpxBII2HPvlxVJ3-uI",
+            "tokenType": ""
+          }
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "multipart/form-data",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "value": null,
+              "type": "file"
+            }
+          ]
+        },
+        "url": "{{VLC_URL}}me/update-avatar"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-5f379607-00ff-4c15-8b45-59ab47fe59b9",
+      "name": "Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "{{VLC_URL}}me?test=vvv&userId=645AA2B2-0AD1-4049-8B0E-9BA47F8F4D4C",
+          "host": [
+            "{{VLC_URL}}me"
+          ],
+          "query": [
+            {
+              "key": "test",
+              "value": "vvv",
+              "equals": true
+            },
+            {
+              "key": "userId",
+              "value": "645AA2B2-0AD1-4049-8B0E-9BA47F8F4D4C",
+              "equals": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-49b616b5-2834-400b-bd3a-a5f4b9118b36",
+      "name": "Danh s·ch setting theo key",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "{{VLC_URL}}setting-key?key=nam-kinh-nghiem",
+          "host": [
+            "{{VLC_URL}}setting-key"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "nam-kinh-nghiem",
+              "equals": true
+            },
+            {
+              "key": "",
+              "value": "trinh-do-ngoai-ngu",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "trinh-do-hoc-van",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "cap-bac",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "kinh-nghiem-lam-viec",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "vi-tri",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "tinh-thanh",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "loai-cong-viec",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-4197672d-fb8a-401a-9fa5-a45cbcedc246",
+      "name": "Doi Password",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI4NDU2OTkwNi0xN0FFLUI4OTQtODE1NS1FMDlCNDlBMkE0ODEiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNzI1NDYzNCwiZXhwIjoxNTczMjU0NjM0LCJuYmYiOjE1MzcyNTQ2MzQsImp0aSI6ImVkZWNjN2RhZmVmMTA4YjQyMWE3M2Y3NWJiYWI5ZWUxIn0.FvQ83StO4iOZ2GZTiVybmtmYDQvrpguWMtFb6aktz7Y",
+            "tokenType": ""
+          }
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "password",
+              "value": "1234567",
+              "type": "text"
+            },
+            {
+              "key": "oldPassword",
+              "value": "123456",
+              "type": "text"
+            },
+            {
+              "key": "password_confirmation",
+              "value": "1234567",
+              "type": "text"
+            },
+            {
+              "key": "deviceToken",
+              "value": "AA",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "deviceType",
+              "value": "android",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": "{{VLC_URL}}member/change-password"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-a4b54d1e-c252-47ca-952f-1115ecf37462",
+      "name": "Logout",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiI5ODk4NTM2OC0wM0M4LTJDMDktN0U2MS1DQzZDNTJERjJGRTUiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzNjgwNjUxNywiZXhwIjoxNTcyODA2NTE3LCJuYmYiOjE1MzY4MDY1MTcsImp0aSI6IjdlNDAwOWJiZDM0MWE2NTU4Y2Q3NmQ1YWM0ZTU2Njg3In0.MXbj1nhxGzEtVlx8GNoG7UHunzLIizr7qIn3fjlHsX8",
+            "tokenType": ""
+          }
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "deviceType",
+              "value": "android",
+              "type": "text"
+            },
+            {
+              "key": "deviceToken",
+              "value": "A",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "{{VLC_URL}}logout"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "143877-0f00f172-6417-4f98-9bfc-04ddfee9316d",
+      "name": "Upload Hinh",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VySWQiOiJEQjM0N0VDRC1GRDQ2LTQ3NTUtQkY1Qy1BRENEQzkyMkE4NTYiLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3ZsY1wvcHVibGljXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTUzODAzNTk3NSwiZXhwIjoxNTc0MDM1OTc1LCJuYmYiOjE1MzgwMzU5NzUsImp0aSI6Ijk2NzViMjczYWIzMTJiNDI5NTE5ZTNjZjljYWU0YmVhIn0.hLM87rh11PMELcXsMdlTPJ3ivZXH_2Q2iyNjGBtRpzw",
+            "tokenType": ""
+          }
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "value": null,
+              "type": "file"
+            }
+          ]
+        },
+        "url": "{{VLC_URL}}upload-image"
+      },
+      "response": []
+    }
+  ]
+}
